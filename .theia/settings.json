@@ -1,0 +1,9 @@
+{
+    "php.suggest.basic": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotShowInfoMsg": false,
+    "liveServer.settings.port": 5502,
+}

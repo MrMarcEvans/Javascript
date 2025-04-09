@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="travel_recommendation.css" />
+  <script defer src="travel_recommendation.js"></script>
+ </head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌍 Travel Explorer</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="overlay">
+      <h1>Discover Your Next Adventure - Starts Here!</h1>
+      <p>Explore cultures, landscapes, and destinations around the world.</p>
+      <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Search for a destination..." />
+        <button onclick="handleSearch()">Search</button>
+        <button onclick="clearSearch()">Clear</button>
+      </div>
+      <div id="results"></div>
+      <button class="book-now">Book Now</button>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
